@@ -1,0 +1,96 @@
+h1 {
+    
+    color: lightblue;
+    text-align: center;
+    padding: 10px;
+}
+h1 {font-size:3.5rem;}
+h2 {
+    
+    color: greenyellow;
+    text-align: center;
+    padding: 5px;
+}
+h2 {font-size:2rem;}
+html, body, *{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: 'Nerko One',cursive;
+}
+/* selection of element */
+span{ /* least specific */
+    color: green;
+}
+.red-text{
+    color: red;
+}
+#blue-text{ /* most specific */
+    color: blue;
+}
+
+h3 {
+    margin: 3rem 0 1.38rem;
+    font-family: 'Nerko One';
+    font-weight: 400;
+    line-height: 0.5;
+    color:cornflowerblue
+  }
+  
+  
+  
+  h3 {font-size: 3rem;}
+  
+  h4 {
+    margin: 3rem 0 1.38rem;
+    font-family: 'Nerko One';
+    font-weight: 400;
+    line-height: 0.5;
+    color:aquamarine
+  }
+  
+  
+  
+  h4 {font-size: 1.60rem;}
+.blue-back{
+    background-color: blue;
+    color: white;
+}
+h5 {text-align: center}
+.card{
+    height: 550px;
+    width: 27%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+    border: 3px solid black;
+    margin: 30px 0;
+    border-radius: 20px;
+    transition: all 0.3s;
+}
+.card:hover{
+    transform:  translateY(-5px);
+
+}
+.card-title:hover{
+    color:yellow ;
+}
+.card-img{
+    width: 100%;
+    
+}
+a, a:link, a:visited, a:active{
+    
+}
+.flex-container{
+    display: flex;
+    justify-content: space-evenly; /* allocateas extra space inbetween or around our elements */ 
+    flex-wrap: wrap; /* wraps next card to new line when space is gone */
+    align-items: center;
+    width: 95vw;
+    margin: 50px auto; /* centers element */
+    
+}
